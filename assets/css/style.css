@@ -1,0 +1,50 @@
+/* Navbar */
+
+.navbar-brand{
+  font-size: 30px;
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+/* Quienes Somos*/
+
+#QuienesSomos{
+  color: #ffffff;
+  background-color: #000000;
+}
+
+#QuienesSomos h4, #QuienesSomos div:last-child{
+  font-family: "Open Sans";
+  line-height: 2;
+}
+
+#QuienesSomos h4{
+   font-weight: 400;
+}
+
+/* Destacados*/
+
+#Destacados{
+  background-color: #000000;
+}
+
+#Destacados div h4{
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+
+/* Contacto */
+
+#Contacto{
+  background-color: #000000;
+}
+
+#Contacto div h4{
+  font-family: "Open Sans";
+}
+
+/* Footer */
+
+#Footer h1{
+  font-family: "Open Sans";
+}
