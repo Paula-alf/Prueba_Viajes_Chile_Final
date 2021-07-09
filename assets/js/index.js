@@ -2,11 +2,11 @@ $(document).ready(function () {
   $("a").click(function (event) {
     event.preventDefault();
 
-    var gato = this.hash;
+    var moviendo = this.hash;
 
     $("html").animate(
       {
-      scrollTop: $(gato).offset().top - 86,
+      scrollTop: $(moviendo).offset().top - 86,
     },
     800
     );
