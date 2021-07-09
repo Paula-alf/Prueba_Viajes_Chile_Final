@@ -1,3 +1,4 @@
+//Movimiento scroll lento página//
 $(document).ready(function () {
   $("a").click(function (event) {
     event.preventDefault();
@@ -13,7 +14,7 @@ $(document).ready(function () {
   });
 });
 
-
+//carrusel intervalo//
   $(document).ready(function() {
     $('.carousel').carousel({interval: 5000});
   });
